@@ -14,12 +14,12 @@ disclose in Data Safety. Our system analyzes and identifies discrepancies in app
 
 ### Files
 
-* **apps_with_descrepancies.ods**
+* **dataset/**
   
-  This is a spreadsheet with datasets of apps with discrepancies across 3 time periods (March '23, June '23, September '23) including functions, piis, and the corresponding
-  Data Safety labels that they collect/share but not disclose in the Data Safety section
+  Contains six csv datasets of apps with discrepancies across 3 time periods (March '23, June '23, September '23) in both DataCollected section and DataShared section, including functions, piis, and the corresponding
+  Data Safety labels that the apps collect/share but do not disclose in the Data Safety section.
   
-* **DataSafety_labelling.ods**
+* **DataSafety_labelling.csv**
 
   This is a spreadsheet with the mappings of each function call to the corresponding Data Safety label
 
