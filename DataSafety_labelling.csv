@@ -1,0 +1,297 @@
+FUNCTIONS,,LABELLER A,LABELLER B,FULL MATCH,PARTIAL MATCH,CONTRADICTION,DISAGREEMENT,FINAL
+android.accounts.AccountManager.addAccount,,Personal info,Personal info,1,,,,Personal info
+android.accounts.AccountManager.getAccounts,,Personal info,Personal info,1,,,,Personal info
+android.accounts.AccountManager.getAccountsByType,,Personal info,Personal info,1,,,,Personal info
+android.accounts.AccountManager.getAccountsByTypeAndFeatures,,Personal info,Personal info,1,,,,Personal info
+android.accounts.AccountManager.getAccountsByTypeForPackage,,Personal info,Personal info,1,,,,Personal info
+android.accounts.AccountManager.getAuthToken,,Personal info,Personal info,1,,,,Personal info
+android.accounts.AccountManager.getPassword,,Personal info,Personal info,1,,,,Personal info
+android.accounts.AccountManager.getPreviousName,,"Personal info, Name",Personal info,0,1,,,Personal info
+android.accounts.AccountManager.getUserData,,Personal info,Personal info,1,,,,Personal info
+android.accounts.AccountManager.setPassword,,Personal info,Personal info,1,,,,Personal info
+android.accounts.AccountManager.setUserData,,Personal info,Personal info,1,,,,Personal info
+android.app.ActivityManager.getRecentTasks,,none,"App activity, Personal info",0,,1,,App activity
+android.app.ActivityManager.getRunningAppProcesses,,none,"App activity, Personal info",0,,1,,App activity
+android.app.ActivityManager.getRunningTasks,,none,"App activity, Personal info",0,,1,,App activity
+android.app.ActivityManager.killBackgroundProcesses,,none,none,1,,,,
+android.app.AlarmManager.set,,none,none,1,,,,
+android.app.AlarmManager.setAlarmClock,,none,none,1,,,,
+android.app.AlarmManager.setExact,,none,none,1,,,,
+android.app.AlarmManager.setExactAndAllowWhileIdle,,none,none,1,,,,
+android.app.AppOpsManager.startWatchingMode,,"App info and performance, Diagnostics",App info and performance,0,1,,,"App info and performance, Diagnostics"
+android.app.AppOpsManager.startWatchingStarted,,"App info and performance, Diagnostics",App info and performance,0,1,,,"App info and performance, Diagnostics"
+android.app.backup.BackupManager.dataChanged,,none,none,1,,,,
+android.app.compat.CompatChanges.isChangeEnabled,,none,none,1,,,,
+android.app.GameManager.isAngleEnabled,,none,App info and performance,0,,1,,
+android.app.job.JobInfo$Builder.setPersisted,,none,none,1,,,,
+android.app.JobSchedulerImpl.schedule,,none,none,1,,,,
+android.app.KeyguardManager$KeyguardLock.disableKeyguard,,none,none,1,,,,
+android.app.KeyguardManager$KeyguardLock.reenableKeyguard,,none,none,1,,,,
+android.app.KeyguardManager.requestDismissKeyguard,,none,none,1,,,,
+android.app.Service.stopSelf,,none,none,1,,,,
+android.app.Service.stopSelfResult,,none,none,1,,,,
+android.app.usage.UsageStatsManager.getAppStandbyBucket,,none,App info and performance,0,,1,,App info and performance
+android.app.WallpaperManager.getDrawable,,"Photos or videos, Photos, Files and docs","Photos or videos, Photos, Files and docs",1,,,,"Photos or videos, Photos, Files and docs"
+android.app.WallpaperManager.setBitmap,,none,none,1,,,,
+android.app.WallpaperManager.setResource,,none,none,1,,,,
+android.app.WallpaperManager.suggestDesiredDimensions,,none,none,1,,,,
+android.bluetooth.BluetoothA2dp.getConnectedDevices,,none,"App activity, Device or other IDs",0,,1,,Device or other IDs
+android.bluetooth.BluetoothA2dp.getDevicesMatchingConnectionStates,,none,"App activity, Device or other IDs",0,,1,,Device or other IDs
+android.bluetooth.BluetoothAdapter.cancelDiscovery,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.closeProfileProxy,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.enable,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.getAddress,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.bluetooth.BluetoothAdapter.getBluetoothLeAdvertiser,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.getBluetoothLeScanner,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.getBondedDevices,,none,Device or other IDs,0,,1,,Device or other IDs
+android.bluetooth.BluetoothAdapter.getName,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.bluetooth.BluetoothAdapter.getProfileConnectionState,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.getProfileProxy,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.getScanMode,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.getState,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.isDiscovering,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.isEnabled,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.isMultipleAdvertisementSupported,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.isOffloadedFilteringSupported,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.isOffloadedScanBatchingSupported,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.listenUsingRfcommWithServiceRecord,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.startDiscovery,,none,none,1,,,,
+android.bluetooth.BluetoothDevice.getBondState,,none,none,1,,,,
+android.bluetooth.BluetoothDevice.getName,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.bluetooth.BluetoothDevice.getType,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.bluetooth.BluetoothDevice.getUuids,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.bluetooth.BluetoothGattServer.addService,,none,none,1,,,,
+android.bluetooth.BluetoothHeadset.getConnectedDevices,,none,Device or other IDs,0,,1,,Device or other IDs
+android.bluetooth.BluetoothHearingAid.getDevicesMatchingConnectionStates,,none,Device or other IDs,0,,1,,Device or other IDs
+android.bluetooth.BluetoothManager.getConnectedDevices,,none,Device or other IDs,0,,1,,Device or other IDs
+android.bluetooth.BluetoothManager.getDevicesMatchingConnectionStates,,none,Device or other IDs,0,,1,,Device or other IDs
+android.bluetooth.BluetoothManager.openGattServer,,none,none,1,,,,
+android.bluetooth.le.BluetoothLeAdvertiser.startAdvertising,,none,none,1,,,,
+android.bluetooth.le.BluetoothLeAdvertiser.startAdvertisingSet,,none,none,1,,,,
+android.bluetooth.le.BluetoothLeAdvertiser.stopAdvertising,,none,none,1,,,,
+android.bluetooth.le.BluetoothLeAdvertiser.stopAdvertisingSet,,none,none,1,,,,
+android.bluetooth.le.BluetoothLeScanner.flushPendingScanResults,,none,none,1,,,,
+android.bluetooth.le.BluetoothLeScanner.startScan,,none,none,1,,,,
+android.bluetooth.le.BluetoothLeScanner.stopScan,,none,none,1,,,,
+android.companion.CompanionDeviceManager.associate,,none,none,1,,,,
+android.content.AttributionSource.getRenouncedPermissions,,none,none,1,,,,
+android.content.ContentProvider.bulkInsert,,none,none,1,,,,
+android.content.ContentProvider.delete,,none,none,1,,,,
+android.content.ContentProvider.openAssetFile,,Files and docs,Files and docs,1,,,,Files and docs
+android.content.ContentProvider.openTypedAssetFile,,Files and docs,Files and docs,1,,,,Files and docs
+android.content.ContentProvider.query,,Files and docs,none,0,,1,,
+android.content.ContentProvider.update,,none,none,1,,,,
+android.content.ContentProviderClient.setDetectNotResponding,,none,none,1,,,,
+android.content.ContentResolver.query,,Device or other IDs,none,0,,1,,Device or other IDs
+android.content.ContextParams.getRenouncedPermissions,,none,none,1,,,,
+android.content.ContextWrapper.stopService,,none,none,1,,,,
+android.content.ContextWrapper.unbindService,,none,none,1,,,,
+android.content.pm.LauncherApps.hasShortcutHostPermission,,none,none,1,,,,
+android.hardware.biometrics.BiometricManager.canAuthenticate,,none,Device or other IDs,0,,1,,
+android.hardware.camera2.CameraManager.openCamera,,none,none,1,,,,
+android.hardware.fingerprint.FingerprintManager.hasEnrolledFingerprints,,none,none,1,,,,
+android.hardware.fingerprint.FingerprintManager.isHardwareDetected,,none,Device or other IDs,0,,1,,
+android.location.LocationManager.addGpsStatusListener,,"Location, Precise location","Location, Precise location",1,,,,"Location, Precise location"
+android.location.LocationManager.addNmeaListener,,"Location, Precise location","Location, Precise location",1,,,,"Location, Precise location"
+android.location.LocationManager.getBestProvider,,none,none,1,,,,
+android.location.LocationManager.getCurrentLocation,,"Location, Precise location, Approximate location","Location, Precise location, Approximate location",1,,,,"Location, Precise location, Approximate location"
+android.location.LocationManager.getGpsStatus,,"Location, Precise location",none,0,,1,,
+android.location.LocationManager.getLastKnownLocation,,"Location, Precise location, Approximate location","Location, Precise location, Approximate location",1,,,,"Location, Precise location, Approximate location"
+android.location.LocationManager.getProvider,,"Location, Approximate location",none,0,,1,,
+android.location.LocationManager.registerGnssStatusCallback,,"Location, Precise location",Location,0,1,,,"Location, Precise location"
+android.location.LocationManager.removeUpdates,,none,none,1,,,,
+android.location.LocationManager.requestLocationUpdates,,"Location, Precise location, Approximate location","Location, Precise location, Approximate location",1,,,,"Location, Precise location, Approximate location"
+android.location.LocationManager.requestSingleUpdate,,"Location, Precise location, Approximate location","Location, Precise location, Approximate location",1,,,,"Location, Precise location, Approximate location"
+android.media.AudioAttributes$Builder.setSystemUsage,,none,none,1,,,,
+android.media.AudioManager.requestAudioFocus,,none,none,1,,,,
+android.media.AudioManager.setBluetoothScoOn,,none,none,1,,,,
+android.media.AudioManager.setMicrophoneMute,,none,none,1,,,,
+android.media.AudioManager.setMode,,none,none,1,,,,
+android.media.AudioManager.setSpeakerphoneOn,,"Audio files, Voice or sound recordings",none,0,,1,,
+android.media.AudioManager.setStreamVolume,,none,none,1,,,,
+android.media.browse.MediaBrowser.disconnect,,none,none,1,,,,
+android.media.MediaPlayer.pause,,none,none,1,,,,
+android.media.MediaPlayer.release,,none,none,1,,,,
+android.media.MediaPlayer.reset,,none,none,1,,,,
+android.media.MediaPlayer.setWakeMode,,none,none,1,,,,
+android.media.MediaPlayer.start,,none,none,1,,,,
+android.media.MediaPlayer.stop,,none,none,1,,,,
+android.media.MediaScannerConnection.disconnect,,none,none,1,,,,
+android.media.Ringtone.play,,none,none,1,,,,
+android.media.Ringtone.setAudioAttributes,,none,none,1,,,,
+android.media.Ringtone.setStreamType,,none,none,1,,,,
+android.media.Ringtone.stop,,none,none,1,,,,
+android.media.RingtoneManager.getRingtone,,"Audio files, Music files","Audio files, Music files",1,,,,"Audio files, Music files"
+android.net.ConnectivityManager.getActiveNetwork,,none,none,1,,,,
+android.net.ConnectivityManager.getActiveNetworkInfo,,none,none,1,,,,
+android.net.ConnectivityManager.getAllNetworkInfo,,none,none,1,,,,
+android.net.ConnectivityManager.getAllNetworks,,none,none,1,,,,
+android.net.ConnectivityManager.getLinkProperties,,none,none,1,,,,
+android.net.ConnectivityManager.getNetworkCapabilities,,none,none,1,,,,
+android.net.ConnectivityManager.getNetworkInfo,,none,none,1,,,,
+android.net.ConnectivityManager.getNetworkPreference,,none,none,1,,,,
+android.net.ConnectivityManager.getRestrictBackgroundStatus,,none,none,1,,,,
+android.net.ConnectivityManager.getTetheredIfaces,,none,none,1,,,,
+android.net.ConnectivityManager.isActiveNetworkMetered,,none,none,1,,,,
+android.net.ConnectivityManager.registerDefaultNetworkCallback,,none,none,1,,,,
+android.net.ConnectivityManager.registerDefaultNetworkCallbackForUid,,none,none,1,,,,
+android.net.ConnectivityManager.registerNetworkCallback,,none,none,1,,,,
+android.net.ConnectivityManager.reportNetworkConnectivity,,none,none,1,,,,
+android.net.ConnectivityManager.requestNetwork,,none,none,1,,,,
+android.net.wifi.p2p.WifiP2pManager.initialize,,none,none,1,,,,
+android.net.wifi.rtt.WifiRttManager.startRanging,,"Location, Precise location",none,0,,1,,
+android.net.wifi.WifiInfo.getBSSID,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.net.wifi.WifiInfo.getMacAddress,,"Location, Precise location, Device or other IDs","Location, Device or other IDs",0,1,,,Device or other IDs
+android.net.wifi.WifiInfo.getSSID,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.net.wifi.WifiManager$MulticastLock.acquire,,none,none,1,,,,
+android.net.wifi.WifiManager$MulticastLock.release,,none,none,1,,,,
+android.net.wifi.WifiManager$WifiLock.acquire,,none,none,1,,,,
+android.net.wifi.WifiManager$WifiLock.release,,none,none,1,,,,
+android.os.BatteryManager.getIntProperty,,"App info and performance, Diagnostics","App info and performance, Diagnostics",1,,,,"App info and performance, Diagnostics"
+android.os.BatteryManager.getLongProperty,,"App info and performance, Diagnostics","App info and performance, Diagnostics",1,,,,"App info and performance, Diagnostics"
+android.os.BatteryManager.isCharging,,"App info and performance, Diagnostics","App info and performance, Diagnostics",1,,,,
+android.os.Build.getSerial,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.os.Debug.getMemoryInfo,,"App info and performance, Diagnostics","App info and performance, Diagnostics",1,,,,"App info and performance, Diagnostics"
+android.os.Debug.getNativeHeapAllocatedSize,,"App info and performance, Diagnostics","App info and performance, Diagnostics",1,,,,"App info and performance, Diagnostics"
+android.os.Debug.getNativeHeapFreeSize,,"App info and performance, Diagnostics","App info and performance, Diagnostics",1,,,,"App info and performance, Diagnostics"
+android.os.Debug.getNativeHeapSize,,"App info and performance, Diagnostics","App info and performance, Diagnostics",1,,,,"App info and performance, Diagnostics"
+android.os.Debug.getRuntimeStat,,"App info and performance, Diagnostics","App info and performance, Diagnostics",1,,,,"App info and performance, Diagnostics"
+android.os.health.HealthStats.getMeasurement,,"App info and performance, Diagnostics",none,0,,1,,"App info and performance, Diagnostics"
+android.os.health.HealthStats.getStats,,"App info and performance, Diagnostics",none,0,,1,,"App info and performance, Diagnostics"
+android.os.PowerManager$WakeLock.acquire,,none,none,1,,,,
+android.os.PowerManager$WakeLock.release,,none,none,1,,,,
+android.os.PowerManager.getCurrentThermalStatus,,"App info and performance, Diagnostics","App info and performance, Diagnostics",1,,,,"App info and performance, Diagnostics"
+android.os.StrictMode.getThreadPolicy,,"App info and performance, Diagnostics",App info and performance,0,1,,,App info and performance
+android.os.StrictMode.getVmPolicy,,"App info and performance, Diagnostics",App info and performance,0,1,,,App info and performance
+android.os.SystemVibrator.cancel,,none,none,1,,,,
+android.os.SystemVibrator.vibrate,,none,none,1,,,,
+android.os.UserManager.getProfileIds,,"Personal info, User IDs",none,0,,1,,
+android.os.UserManager.getUserRestrictions,,none,none,1,,,,
+android.os.UserManager.hasUserRestrictionForUser,,none,none,1,,,,
+android.os.UserManager.isManagedProfile,,none,none,1,,,,
+android.os.UserManager.isProfile,,none,none,1,,,,
+android.os.UserManager.isUserRunning,,none,none,1,,,,
+android.os.UserManager.isUserUnlocked,,none,none,1,,,,
+android.os.UserManager.isUserUnlockingOrUnlocked,,none,none,1,,,,
+android.provider.DeviceConfig.getBoolean,,none,none,1,,,,
+android.provider.DeviceConfig.getInt,,none,none,1,,,,
+android.provider.DeviceConfig.getLong,,none,none,1,,,,
+android.provider.Settings$Config.getStrings,,Device or other IDs,none,0,,1,,
+android.provider.Settings$Secure.getString,,Device or other IDs,none,0,,1,,
+android.provider.Settings$System.putString,,none,none,1,,,,
+android.provider.Settings.canDrawOverlays,,none,none,1,,,,
+android.provider.Settings.Secure.getString,,Device or other IDs,none,0,,1,,
+android.speech.tts.TextToSpeech.getAvailableLanguages,,none,none,1,,,,
+android.speech.tts.TextToSpeech.getDefaultVoice,,none,none,1,,,,
+android.speech.tts.TextToSpeech.getVoice,,none,none,1,,,,
+android.speech.tts.TextToSpeech.getVoices,,none,none,1,,,,
+android.speech.tts.TextToSpeech.isLanguageAvailable,,none,none,1,,,,
+android.speech.tts.TextToSpeech.setLanguage,,none,none,1,,,,
+android.speech.tts.TextToSpeech.setVoice,,none,none,1,,,,
+android.speech.tts.TextToSpeech.shutdown,,none,none,1,,,,
+android.speech.tts.TextToSpeech.speak,,"App activity, Other actions",none,0,,1,,
+android.speech.tts.TextToSpeech.stop,,"App activity, Other actions",none,0,,1,,
+android.telecom.TelecomManager.getCallCapablePhoneAccounts,,Contacts,Contacts,1,,,,Personal info
+android.telecom.TelecomManager.getCallState,,none,none,1,,,,
+android.telecom.TelecomManager.getDefaultDialerPackage,,none,none,1,,,,
+android.telecom.TelecomManager.getDefaultOutgoingPhoneAccount,,Contacts,Personal info,0,,,1,Contacts
+android.telecom.TelecomManager.isInCall,,none,none,1,,,,
+android.telecom.TelecomManager.isVoiceMailNumber,,none,Personal info,0,,1,,"Personal info, Phone number"
+android.telephony.ims.ProvisioningManager.isRcsVolteSingleRegistrationCapable,,none,none,1,,,,
+android.telephony.PhoneNumberUtils.isVoiceMailNumber,,none,Personal info,0,,1,,"Personal info, Phone number"
+android.telephony.PhoneStateListener.onCallStateChanged,,none,none,1,,,,
+android.telephony.PhoneStateListener.onCellInfoChanged,,"Location, Precise location","Location, Precise location",1,,,,"Location, Precise location"
+android.telephony.PhoneStateListener.onCellLocationChanged,,"Location, Precise location","Location, Precise location",1,,,,"Location, Precise location"
+android.telephony.SubscriptionInfo.getIccId,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.telephony.SubscriptionManager.getActiveSubscriptionInfo,,Personal info,Personal info,1,,,,Personal info
+android.telephony.SubscriptionManager.getActiveSubscriptionInfoCount,,none,none,1,,,,
+android.telephony.SubscriptionManager.getActiveSubscriptionInfoForSimSlotIndex,,Personal info,Personal info,1,,,,Personal info
+android.telephony.SubscriptionManager.getActiveSubscriptionInfoList,,Personal info,Personal info,1,,,,Personal info
+android.telephony.TelephonyManager.checkCarrierPrivilegesForPackage,,none,none,1,,,,
+android.telephony.TelephonyManager.getAllCellInfo,,"Location, Precise location","Location, Precise location",1,,,,"Location, Precise location"
+android.telephony.TelephonyManager.getCallState,,none,none,1,,,,
+android.telephony.TelephonyManager.getCallStateForSubscription,,none,none,1,,,,
+android.telephony.TelephonyManager.getCardIdForDefaultEuicc,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.telephony.TelephonyManager.getCellLocation,,"Location, Precise location","Location, Precise location",1,,,,"Location, Precise location"
+android.telephony.TelephonyManager.getDataNetworkType,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.telephony.TelephonyManager.getDeviceId,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.telephony.TelephonyManager.getDeviceSoftwareVersion,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.telephony.TelephonyManager.getGroupIdLevel1,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.telephony.TelephonyManager.getImei,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.telephony.TelephonyManager.getLine1Number,,"Personal info, Phone number",Personal info,0,1,,,"Personal info, Phone number"
+android.telephony.TelephonyManager.getMeid,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.telephony.TelephonyManager.getNeighboringCellInfo,,"Location, Approximate location","Location, Approximate location",1,,,,"Location, Approximate location"
+android.telephony.TelephonyManager.getNetworkCountryIso,,none,Location,0,,1,,Personal info
+android.telephony.TelephonyManager.getNetworkOperator,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.telephony.TelephonyManager.getNetworkOperatorName,,none,Device or other IDs,0,,1,,Personal info
+android.telephony.TelephonyManager.getNetworkType,,Device or other IDs,none,0,,1,,
+android.telephony.TelephonyManager.getPhoneCount,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.telephony.TelephonyManager.getServiceState,,"Location, Approximate location","Location, Approximate location",1,,,,"Location, Approximate location"
+android.telephony.TelephonyManager.getSimSerialNumber,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.telephony.TelephonyManager.getSimSpecificCarrierId,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.telephony.TelephonyManager.getSimState,,none,none,1,,,,
+android.telephony.TelephonyManager.getSubscriberId,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.telephony.TelephonyManager.getVisualVoicemailPackageName,,"App activity, Installed apps","App activity, Installed apps",1,,,,App activity
+android.telephony.TelephonyManager.getVoiceMailNumber,,none,Personal info,0,,1,,"Personal info, Phone number"
+android.telephony.TelephonyManager.getVoiceNetworkType,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+android.telephony.TelephonyManager.isDataEnabled,,none,none,1,,,,
+android.telephony.TelephonyManager.isDataEnabledForReason,,none,none,1,,,,
+android.telephony.TelephonyManager.isDataRoamingEnabled,,none,none,1,,,,
+android.telephony.TelephonyManager.listen,,none,none,1,,,,
+android.telephony.TelephonyManager.requestCellInfoUpdate,,"Location, Precise location","Location, Precise location",1,,,,"Location, Precise location"
+android.view.Window.setHideOverlayWindows,,none,none,1,,,,
+android.widget.VideoView.pause,,none,none,1,,,,
+android.widget.VideoView.resume,,none,none,1,,,,
+android.widget.VideoView.setVideoPath,,none,none,1,,,,
+android.widget.VideoView.setVideoURI,,none,none,1,,,,
+android.widget.VideoView.start,,none,none,1,,,,
+android.widget.VideoView.stopPlayback,,none,none,1,,,,
+android.widget.VideoView.suspend,,none,none,1,,,,
+java.io.File.getFreeSpace,,"App info and performance, Other app performance data","App info and performance, Other app performance data",1,,,,"App info and performance, Other app performance data"
+java.io.File.getTotalSpace,,"App info and performance, Other app performance data","App info and performance, Other app performance data",1,,,,"App info and performance, Other app performance data"
+java.io.File.getUsableSpace,,"App info and performance, Other app performance data","App info and performance, Other app performance data",1,,,,"App info and performance, Other app performance data"
+java.lang.ProcessBuilder.environment,,"App info and performance, Other app performance data",none,0,,1,,
+java.lang.System.clearProperty,,"App info and performance, Other app performance data",none,0,,1,,
+java.lang.System.getenv,,"App info and performance, Other app performance data",none,0,,1,,
+java.lang.System.setProperty,,"App info and performance, Other app performance data",none,0,,1,,
+java.net.Authenticator.setDefault,,none,none,1,,,,
+java.net.CookieHandler.getDefault,,Web browsing,Web browsing,1,,,,
+java.net.CookieHandler.setDefault,,Web browsing,Web browsing,1,,,,
+java.net.NetworkInterface.getHardwareAddress,,Device or other IDs,Device or other IDs,1,,,,Device or other IDs
+java.net.ProxySelector.getDefault,,Web browsing,Web browsing,1,,,,
+java.net.ProxySelector.setDefault,,Web browsing,none,0,,1,,
+java.net.ResponseCache.getDefault,,Web browsing,Web browsing,1,,,,
+java.net.ResponseCache.setDefault,,Web browsing,none,0,,1,,
+java.security.Security.getProperty,,Device or other IDs,none,0,,1,,
+java.util.Locale.setDefault,,none,none,1,,,,
+java.util.logging.Handler.setEncoding,,none,none,1,,,,
+java.util.logging.Handler.setErrorManager,,none,none,1,,,,
+java.util.logging.Handler.setFilter,,none,none,1,,,,
+java.util.logging.Handler.setFormatter,,none,none,1,,,,
+java.util.logging.Handler.setLevel,,none,none,1,,,,
+java.util.logging.Logger.addHandler,,none,none,1,,,,
+java.util.logging.Logger.removeHandler,,none,none,1,,,,
+java.util.logging.Logger.setLevel,,none,none,1,,,,
+java.util.logging.Logger.setParent,,none,none,1,,,,
+java.util.logging.Logger.setUseParentHandlers,,none,none,1,,,,
+java.util.logging.LogManager.readConfiguration,,Device or other IDs,none,0,,1,,
+java.util.logging.LogManager.reset,,none,none,1,,,,
+java.util.TimeZone.setDefault,,none,none,1,,,,
+java.util.UUID.randomUUID,,none,none,1,,,,
+javax.net.ssl.HttpsURLConnection.setDefaultHostnameVerifier,,none,none,1,,,,
+javax.net.ssl.SSLContext.setDefault,,none,none,1,,,,
+sun.nio.fs.UnixFileSystemProvider.readSymbolicLink,,none,none,1,,,,
+android.app.job.JobInfo$Builder.setPersisted,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.startLeScan,,none,none,1,,,,
+android.bluetooth.BluetoothAdapter.stopLeScan,,none,none,1,,,,
+android.location.LocationManager.getProviders,,none,none,1,,,,
+android.location.LocationManager.sendExtraCommand,,none,none,1,,,,
+android.os.health.HealthStats.getDataType,,none,none,1,,,,
+android.speech.tts.TextToSpeech.getDefaultLanguage,,none,none,1,,,,
+android.speech.tts.TextToSpeech.synthesizeToFile,,none,none,1,,,,
+android.telephony.PhoneStateListener.onDisplayInfoChanged,,none,none,1,,,,
+android.telephony.TelephonyManager.getEquivalentHomePlmns,,none,Device or other IDs,0,,1,,
+android.telephony.TelephonyManager.getSubscriptionId,,none,Device or other IDs,0,,1,,
+android.telephony.TelephonyManager.isDataConnectionAllowed,,none,none,1,,,,
+java.util.prefs.Preferences.userRoot,,none,none,1,,,,
+,,,,242,8,44,1,94

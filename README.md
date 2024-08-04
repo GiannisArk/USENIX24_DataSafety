@@ -10,6 +10,7 @@ disclose in Data Safety. Our system analyzes and identifies discrepancies in app
 * LSPosed Framework
 * MitM proxy
 * Reaper (https://github.com/Michalis-Diamantaris/Reaper)
+* Frida (Objection)
 
 ### Files
 
