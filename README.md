@@ -25,7 +25,7 @@ disclose in Data Safety. Our system analyzes and identifies discrepancies in app
 
 * **pseudocode/RunTimeConsentDialogDynamicIdentifier.pdf**
 
-  Here is the pseudocode of the script we implemented and we used it to identify run-time consent dialogs dynamically.
+  This is the pseudocode of the script we implemented and we used it to identify run-time consent dialogs dynamically.
 
 ### Paper
 
