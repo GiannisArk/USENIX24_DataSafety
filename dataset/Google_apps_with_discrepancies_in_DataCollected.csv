@@ -1,0 +1,39 @@
+Package Name,Data Safety Labels,Functions
+androidx.compose.material.catalog,App info and performance,android.os.StrictMode.getThreadPolicy
+com.google.android.apps.accessibility.reveal,"App activity, Other app performance data","android.app.ActivityManager.getRunningAppProcesses, java.io.File.getFreeSpace, java.io.File.getTotalSpace"
+com.google.android.apps.authenticator2,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.apps.blogger,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.apps.camera.poseidon,App activity,android.app.ActivityManager.getRunningAppProcesses
+com.google.android.apps.cultural,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.apps.youtube.kids,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.calculator,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.deskclock,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.dialer,"Location, Presice location, Approximate location, Contacts","android.location.LocationManager.requestLocationUpdates, android.telecom.TelecomManager.getDefaultOutgoingPhoneAccount"
+com.google.android.ims,"Personal info, Phone number","android.telephony.TelephonyManager.getLine1Number, android.telephony.TelephonyManager.getNetworkOperatorName, android.telephony.SubscriptionManager.getActiveSubscriptionInfo, android.telephony.SubscriptionManager.getActiveSubscriptionInfoForSimSlotIndex"
+com.google.android.inputmethod.latin,Personal info,"android.telephony.TelephonyManager.getNetworkCountryIso, android.accounts.AccountManager.getAccounts"
+com.google.android.apps.nbu.files,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.apps.nexuslauncher,App info and performance,android.os.StrictMode.getThreadPolicy
+com.google.android.apps.playconsole,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.apps.plus,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.apps.safetyhub,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.apps.seekh,"Device or other IDs, App info and performance, Other app performance data","android.net.wifi.WifiInfo.getSSID, java.io.File.getFreeSpace, android.os.StrictMode.getThreadPolicy, android.os.StrictMode.getVmPolicy, java.io.File.getTotalSpace"
+com.google.android.apps.fitness,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.apps.maps,Presice location,"android.location.LocationManager.registerGnssStatusCallback, android.location.LocationManager.requestLocationUpdates, android.location.LocationManager.getLastKnownLocation"
+com.google.android.apps.mapslite,Files and docs,"android.content.ContentProvider.openTypedAssetFile, android.content.ContentProvider.openAssetFile"
+com.google.android.keep,Files and docs,android.content.ContentProvider.openAssetFile
+com.google.ar.lens,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.chromeremotedesktop,Files and docs,"android.content.ContentProvider.openTypedAssetFile, android.content.ContentProvider.openAssetFile"
+com.google.intelligence.sense,App info and performance,android.os.StrictMode.getThreadPolicy
+com.google.socratic,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.toontastic,App info and performance,android.os.StrictMode.getThreadPolicy
+com.google.android.apps.accessibility.voiceaccess,Files and docs,"android.content.ContentProvider.openTypedAssetFile, android.content.ContentProvider.openAssetFile"
+com.google.android.apps.authenticator2,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.apps.blogger,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.apps.camera.poseidon,App activity,android.app.ActivityManager.getRunningAppProcesses
+com.google.android.apps.cultural,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.apps.work.clouddpc,"App activity, App info and performance, Other app performance data, Personal info, Device or other IDs","android.os.StrictMode.getVmPolicy, java.io.File.getFreeSpace, android.os.StrictMode.getThreadPolicy, android.accounts.AccountManager.getAccountsByType, android.net.wifi.WifiInfo.getSSID, android.app.ActivityManager.getRunningAppProcesses, java.io.File.getTotalSpace"
+com.google.android.apps.seekh,"App info and performance, Other app performance data, Diagnostics, Device or other IDs","android.os.Debug.getNativeHeapAllocatedSize, android.net.wifi.WifiInfo.getSSID, java.io.File.getFreeSpace, android.os.StrictMode.getThreadPolicy, android.os.StrictMode.getVmPolicy, java.io.File.getTotalSpace"
+com.google.android.apps.wallpaper,Files and docs,"android.content.ContentProvider.openTypedAssetFile, android.content.ContentProvider.openAssetFile"
+com.google.android.apps.wearables.maestro.companion,Other app performance data,"java.io.File.getTotalSpace, java.io.File.getFreeSpace"
+com.google.android.apps.mapslite,Files and docs,"android.content.ContentProvider.openTypedAssetFile, android.content.ContentProvider.openAssetFile"
+com.google.android.keep,Files and docs,"android.content.ContentProvider.openTypedAssetFile, android.content.ContentProvider.openAssetFile"

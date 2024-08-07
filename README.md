@@ -17,7 +17,7 @@ disclose in Data Safety. Our system analyzes and identifies discrepancies in app
 * **dataset/**
   
   Contains six csv datasets of apps with discrepancies across 3 time periods (March '23, June '23, September '23) in both the DataCollected section and DataShared section, including functions, piis, and the corresponding
-  Data Safety labels that the apps collect/share but do not disclose in the Data Safety section. Also, it includes one file of the Google apps with discrepancies.
+  Data Safety labels that the apps collect/share but do not disclose in the Data Safety section. Also, it includes two files of the Google apps with discrepancies.
   
 * **DataSafety_labelling.csv**
 

@@ -1,0 +1,25 @@
+Package Name,PIIS,Data Safety Labels
+com.google.android.apps.accessibility.auditor,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.apps.accessibility.maui.actionblocks,"BuildNumber, Google_Services_Framework_ID",Device or other IDs
+com.google.android.apps.blogger,"Google_Services_Framework_ID, MCC+MNC",Device or other IDs
+com.google.android.apps.books,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.apps.jam,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.apps.messaging,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.apps.photos,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.apps.photosgo,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.apps.playconsole,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.apps.restore,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.apps.safetyhub,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.apps.searchlite,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.apps.seekh,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.apps.subscriptions.red,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.apps.tasks,"BuildNumber, AdvertisingID, DeviceName",Device or other IDs
+com.google.android.apps.translate,"Google_Services_Framework_ID, MCC+MNC",Device or other IDs
+com.google.android.apps.youtube.music,"BuildNumber, AdvertisingID, DeviceName",Device or other IDs
+com.google.android.dialer,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.gms,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.googlequicksearchbox,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.ims,"BuildNumber, DeviceName",Device or other IDs
+com.google.android.videos,"Google_Services_Framework_ID, MCC+MNC",Device or other IDs
+com.google.ar.lens,"BuildNumber, DeviceName",Device or other IDs
+com.google.socratic,"BuildNumber, DeviceName",Device or other IDs
