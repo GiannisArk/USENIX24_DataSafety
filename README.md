@@ -7,21 +7,25 @@ disclose in Data Safety. Our system analyzes and identifies discrepancies in app
 
 ### Prerequisites
 
-* LSPosed Framework
-* MitM proxy
+* LSPosed Framework (https://github.com/LSPosed/LSPosed)
+* MitM proxy (https://mitmproxy.org)
 * Reaper (https://github.com/Michalis-Diamantaris/Reaper)
-* Frida (Objection)
+* Frida Objection for SSL Unpinning (https://github.com/sensepost/objection)
 
 ### Files
 
 * **dataset/**
   
-  Contains six csv datasets of apps with discrepancies across 3 time periods (March '23, June '23, September '23) in both DataCollected section and DataShared section, including functions, piis, and the corresponding
-  Data Safety labels that the apps collect/share but do not disclose in the Data Safety section.
+  Contains six csv datasets of apps with discrepancies across 3 time periods (March '23, June '23, September '23) in both the DataCollected section and DataShared section, including functions, piis, and the corresponding
+  Data Safety labels that the apps collect/share but do not disclose in the Data Safety section. Also, it includes one file of the Google apps with discrepancies.
   
 * **DataSafety_labelling.csv**
 
   This is a spreadsheet with the mappings of each function call to the corresponding Data Safety label
+
+* **API_methods_list**
+
+  This is the expanded version of Reaper's permission-protected function list and list of non-permission-protected functions that yield Personally Identifiable Information (PII) 
 
 * **pseudocode/RunTimeConsentDialogDynamicIdentifier.pdf**
 
