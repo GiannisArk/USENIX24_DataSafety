@@ -38,3 +38,7 @@ For technical details please refer to our publication:
 Abandon All Hope Ye Who Enter Here: A Dynamic, Longitudinal Investigation of Android’s Data Safety Section
 
 https://www.usenix.org/conference/usenixsecurity24/presentation/arkalakis
+
+<br>
+
+If you require a technical part of our code, please email us.
