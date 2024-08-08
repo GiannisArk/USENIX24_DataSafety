@@ -16,8 +16,8 @@ disclose in Data Safety. Our system analyzes and identifies discrepancies in app
 
 * **dataset/**
   
-  Contains six csv datasets of apps with discrepancies across 3 time periods (March '23, June '23, September '23) in both the DataCollected section and DataShared section, including functions, piis, and the corresponding
-  Data Safety labels that the apps collect/share but do not disclose in the Data Safety section. Also, it includes two files of the Google apps with discrepancies.
+  Contains six csv datasets of apps with discrepancies across 3 time periods (March '23, June '23, September '23) in both the DataCollected section and DataShared section, including functions, PIIS, and the corresponding
+  Data Safety labels that the apps collect/share but do not disclose in the Data Safety section. Also, it includes two files listing Google apps with discrepancies.
   
 * **DataSafety_labelling.csv**
 
@@ -25,11 +25,11 @@ disclose in Data Safety. Our system analyzes and identifies discrepancies in app
 
 * **API_methods_list**
 
-  This is the expanded version of Reaper's permission-protected function list and list of non-permission-protected functions that yield Personally Identifiable Information (PII) 
+  This is the expanded version of Reaper's permission-protected function list and the list of non-permission-protected functions that yield Personally Identifiable Information (PII) 
 
 * **pseudocode/RunTimeConsentDialogDynamicIdentifier.pdf**
 
-  This is the pseudocode of the script we implemented and we used it to identify run-time consent dialogs dynamically.
+  This is the pseudocode of the script we implemented and used to identify run-time consent dialogs dynamically.
 
 ### Paper
 
@@ -40,5 +40,3 @@ Abandon All Hope Ye Who Enter Here: A Dynamic, Longitudinal Investigation of And
 https://www.usenix.org/conference/usenixsecurity24/presentation/arkalakis
 
 <br>
-
-If you require a technical part of our code, please email us.
