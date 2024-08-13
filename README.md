@@ -10,8 +10,9 @@ disclose in Data Safety. Our system analyzes and identifies discrepancies in app
 * LSPosed Framework (https://github.com/LSPosed/LSPosed)
 * MitM proxy (https://mitmproxy.org)
 * Reaper (https://github.com/Michalis-Diamantaris/Reaper)
-  * We expand the list of API functions that Reaper monitors
-  * We extend the UIHarvester to identify not only native Android elements but also web Android elements using the AccessibilityService. We modify the method that hooks the API functions for Android 12, from _onDraw_ to _draw_.
+  * We modified UIHarvester's hook from _android.view.View.onDraw_ to _android.view.View.draw_ to extract Android UI elements for Android 12.
+  * We expanded the list of API functions that Reaper monitors. They can be found /API_methods_list
+  * We extended the UIHarvester to identify not only native Android elements but also web elements using the AccessibilityService, we created an Accessibility Service that triggers when TYPE_WINDOW_CONTENT_CHANGED or TYPE_WINDOW_STATE_CHANGED and we hooked using LSPosed the _onAccessibilityEvent_.
 * Frida Objection for SSL Unpinning (https://github.com/sensepost/objection)
 
 ### Files
