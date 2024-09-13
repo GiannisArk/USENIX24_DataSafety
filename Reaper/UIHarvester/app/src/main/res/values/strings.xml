@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="scope" >
+        <item>tv.flosports</item>
+        <item>yqtrack.app</item>
+        <item>app.feelsy</item>
+    </string-array>
+</resources>

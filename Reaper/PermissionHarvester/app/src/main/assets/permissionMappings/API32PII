@@ -1,0 +1,22 @@
+android.net.WifiLinkQualityInfo getBssid
+android.net.wifi.WifiInfo getBSSID
+androidx.ads.identifier.AdvertisingIdClient getAdvertisingIdInfo
+android.accounts.AccountManager getAccountsByType & getAccounts
+android.location.LocationManager getLastKnownLocation
+android.telephony.TelephonyManager getImei
+android.telephony.TelephonyManager getSubscriberId
+android.net.wifi.nl80211 getMacAddress
+android.net.wifi.WifiInfo getMacAddress
+android.telephony.SubscriptionInfo getPhoneNumber
+android.telephony.TelephonyManager getSimSerialNumber
+android.os.Build getSerial
+android.net.wifi.WifiInfo getSSID
+android.telephony.TelephonyManager getMeid
+android.telephony.TelephonyManager getDeviceSoftwareVersion
+android.telephony.TelephonyManager getMsisdn
+android.telephony.TelephonyManager getGroupIdLevel1
+android.telephony.TelephonyManager getNetworkCountryIso
+android.telephony.TelephonyManager getNetworkOperator
+android.telephony.TelephonyManager getNetworkOperatorName
+android.telephony.SubscriptionInfo getIccId
+android.telephony.SubscriptionInfo getSimOperator
